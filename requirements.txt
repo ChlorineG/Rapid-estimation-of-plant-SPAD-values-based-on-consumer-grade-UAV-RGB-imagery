@@ -1,0 +1,11 @@
+# RGBtoSPAD 运行依赖
+# 安装：pip install -r requirements.txt
+# 说明：Tkinter 属于 Python 标准库，不在本文件中列出（Linux 需另装 python3-tk）
+
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0          # 代码使用 Image.Resampling，要求 Pillow >= 9.1
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0         # pandas ExcelWriter 导出 .xlsx 所需
